@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:/Users/deepp/OneDrive/Documents/dataset/python_csv.csv")
+df = pd.read_csv(
+    "C:/Users/deepp/OneDrive/Desktop/PYTHON/dataset/python_csv.csv")
 df.head()
 print(df)
 print(df.info())
